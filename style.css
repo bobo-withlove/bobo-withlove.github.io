@@ -46,11 +46,13 @@ h1{
     border-radius:14px;
     font-size:17px;
     font-weight:500;
-    transition:.2s;
+    transition: all .25s ease;
 }
 
 .button:hover{
     background:#556336;
+    transform:translateY(-4px);
+    box-shadow:0 10px 22px rgba(0,0,0,.18);
 }
 
 footer{
@@ -219,4 +221,139 @@ header img{
     line-height:1.9;
     margin:0;
     opacity:.95;
+}
+
+/* ===== Animations ===== */
+
+header img{
+    animation:logoDrop .8s ease;
+}
+
+h1{
+    animation:titleFade .9s ease;
+}
+
+.button{
+    opacity:0;
+    animation:buttonShow .6s forwards;
+}
+
+.button:nth-of-type(1){
+    animation-delay:.2s;
+}
+
+.button:nth-of-type(2){
+    animation-delay:.35s;
+}
+
+.button:nth-of-type(3){
+    animation-delay:.5s;
+}
+
+.button:nth-of-type(4){
+    animation-delay:.65s;
+}
+
+.button:nth-of-type(5){
+    animation-delay:.8s;
+}
+
+.product-card{
+    animation:cardUp .8s ease;
+}
+
+.hero{
+
+background:linear-gradient(-45deg,#6D7D45,#7C8F52,#94A56B,#6D7D45);
+
+background-size:400% 400%;
+
+animation:heroBg 12s ease infinite;
+
+}
+
+@keyframes logoDrop{
+
+from{
+
+opacity:0;
+
+transform:translateY(-25px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes titleFade{
+
+from{
+
+opacity:0;
+
+}
+
+to{
+
+opacity:1;
+
+}
+
+}
+
+@keyframes buttonShow{
+
+from{
+
+opacity:0;
+
+transform:translateY(18px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes cardUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes heroBg{
+
+0%{background-position:0% 50%;}
+
+50%{background-position:100% 50%;}
+
+100%{background-position:0% 50%;}
+
 }
