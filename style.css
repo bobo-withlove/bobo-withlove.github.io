@@ -64,3 +64,52 @@ header img{
     display:block;
     margin:0 auto 20px;
 }
+
+.product-card{
+    background:#ffffff;
+    border-radius:18px;
+    padding:18px;
+    margin:20px 0;
+    box-shadow:0 4px 18px rgba(0,0,0,.08);
+    text-align:right;
+}
+
+.product-image{
+    width:100%;
+    max-width:220px;
+    display:block;
+    margin:0 auto 18px;
+    border-radius:14px;
+}
+
+.product-title{
+    color:#6D7D45;
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.product-desc{
+    color:#555;
+    line-height:1.8;
+    margin-bottom:15px;
+}
+
+.product-info{
+    color:#666;
+    line-height:2;
+    margin-bottom:18px;
+    font-size:15px;
+}
+
+.product-button{
+    display:block;
+    text-align:center;
+    background:#6D7D45;
+    color:#fff;
+    text-decoration:none;
+    padding:14px;
+    border-radius:12px;
+    font-weight:600;
+}
+
