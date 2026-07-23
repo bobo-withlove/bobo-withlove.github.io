@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>آشپزی خلاق BoBo</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<img src="../logo.png" alt="BoBo Logo">
+
+<h1>آشپزی خلاق BoBo</h1>
+
+<p class="subtitle">
+پودرهای آماده برای آشپزی خلاق و خانگی
+</p>
+
+</header>
+
+<main>
+
+<div class="product-card">
+
+<img src="../assets/images/magic-dough.jpg"
+class="product-image"
+alt="خمیر جادویی">
+
+<div class="product-title">
+خمیر جادویی
+</div>
+
+<div class="product-desc">
+خمیری نرم، لطیف و کاربردی برای تهیه پیتزا، پیراشکی، رول‌های شور و انواع نان‌های خانگی با BoBo.
+</div>
+
+<div class="product-info">
+
+وزن نهایی خمیر حدود ۸۰۰ تا ۹۰۰ گرم مناسب برای ۲ پیتزای متوسط یا حدود ۱۲ تا ۱۵ عدد پیراشکی متوسط
+
+</div>
+
+<a class="product-button" href="items/magic-dough.html">
+مشاهده محصول
+</a>
+</div>
+  
+<a class="button" href="index.html">
+بازگشت به منوی محصولات
+</a>
+  
+</main>
+
+<footer>
+
+<p>
+
+BoBo with Love © 2026
+
+</p>
+
+</footer>
+
+</div>
+
+</body>
+
+</html>
